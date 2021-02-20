@@ -1,0 +1,29 @@
+
+package pkgswitch.pkgcase;
+
+import java.util.Scanner;
+
+
+public class SwitchCase {
+
+    public static void main(String[] args) {
+       int choice;
+       System.out.println("Let's Start the conversation");
+       System.out.println("What do you want to say : 1. Hi\t2. Hey\t3. Hello\t4. Wassup\t");
+       Scanner a = new Scanner(System.in);
+       choice = a.nextInt();
+       switch(choice)
+       {
+           case 1 : System.out.println("Hi ! MySelf Anyush Garg ");
+                      break;
+           case 2 : System.out.println("Hey bro, my name is Anyush ");
+                      break;
+           case 3 : System.out.println("Hello , MySelf Anyush Garg from SRM University ");
+                      break;
+           case 4 : System.out.println("Wassup buddy ! All Good, MySelf Anyush Garg a.k.a AG have fun");
+                      break;
+           default: System.out.println("Looks like u don't wanna chat whoever it is, Cool then! See Yaa");
+       }
+    }
+    
+}
