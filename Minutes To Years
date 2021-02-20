@@ -1,0 +1,17 @@
+package minutes.to.years;
+
+import java.util.Scanner;
+
+public class MinutesToYears {
+  
+    public static void main(String[] args) {
+        float years;
+        System.out.println("Enter the number of minutes want to get convertred into years : ");
+        Scanner sc= new Scanner(System.in);
+        int min= sc.nextInt();
+        System.out.print(min);
+        years=min/525600;
+        System.out.print("The minutes converted to years are : "+years);          
+    }
+    
+}
